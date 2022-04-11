@@ -8,7 +8,7 @@ function Project1() {
     <div className="projectWrapper">
       <div className="projectFrame">
         <Iframe
-          url="https://kevinh21.github.io/IntroToJavaScript/"
+          url="https://kevinh21.github.io/magic8ball/"
           id="eightBall"
           // height="400px"
           // width="600px"
