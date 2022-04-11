@@ -32,12 +32,13 @@
   position: fixed;
   row-gap: 10px;
   top: 138px;
-  right: 32px;
+  right: 62px;
   width: 116px;
   text-align: center;
   padding: 16px;
   border-radius: 45%;
-  background-color: rgb(19, 11, 83);
+  /* background-color: rgb(19, 11, 83); */
+  list-style: none;
 }
 
 .professional {
