@@ -4,9 +4,9 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "./App.css";
 import App from "./App";
-import Project1 from "./Components/Project1/Project1";
-import Project2 from "./Components/Project2/Project2";
-import Project3 from "./Components/Project3/Project3";
+import WebSitesForBeginners from "./Components/Projects/WebSitesForBeginners/WebSitesForBeginners";
+import MagicEight from "./Components/Projects/MagicEight/MagicEight";
+import Watches from "./Components/Projects/Watches/Watches";
 import Projects from "./Components/Projects/Projects";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import Information from "./Components/Information/Information";
@@ -21,9 +21,12 @@ ReactDOM.render(
         <Route path="/information" element={<Information />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/project1" element={<Project1 />} />
-        <Route path="/project2" element={<Project2 />} />
-        <Route path="/project3" element={<Project3 />} />
+        <Route
+          path="/webSitesForBeginners"
+          element={<WebSitesForBeginners />}
+        />
+        <Route path="/magicEight" element={<MagicEight />} />
+        <Route path="/watches" element={<Watches />} />
       </Route>
     </Routes>
   </Router>,

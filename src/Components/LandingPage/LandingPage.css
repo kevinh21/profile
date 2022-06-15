@@ -34,17 +34,17 @@
   margin-left: 24px;
   width: 45vw;
 }
-/* #projDesctiption {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: none;
-} */
 
 /*==============create menu effect below =====================*/
 .rightSidePage {
   display: flex;
   flex-direction: column;
 }
+.rightSidePage li {
+  list-style: none;
+  padding-top: 3px;
+}
+
 .projectList {
   display: flex;
   flex-direction: column;
@@ -54,6 +54,10 @@
   right: 84px;
   text-align: right;
   list-style: none;
+}
+
+.projectList li {
+  padding-top: 12px;
 }
 
 #pTitle {
@@ -72,7 +76,7 @@
   color: rgb(55, 55, 85);
   margin-top: 25vh;
   margin-bottom: 5px;
-  margin-left: 260px;
+  margin-left: 108px;
   /* width: 400px; */
 }
 
@@ -84,7 +88,7 @@
   color: rgb(55, 55, 85);
   margin-top: 30px;
   margin-bottom: 5px;
-  margin-left: 260px;
+  margin-left: 108px;
 }
 
 #techUsed {
@@ -93,9 +97,9 @@
   font-size: 16px;
   font-weight: 600;
   color: rgb(55, 55, 85);
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 5px;
-  margin-left: 260px;
+  margin-left: 108px;
   /* width: 400px; */
   z-index: +2;
 }
@@ -105,7 +109,7 @@
   flex-direction: column;
   font-size: 16px;
   margin-top: 5px;
-  margin-left: 260px;
+  margin-left: 108px;
   margin-right: 20px;
   color: white;
   padding: 16px;

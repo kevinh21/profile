@@ -13,10 +13,10 @@ const LandingPage = () => {
           ></img>
         </a>
         <div className="description">
-          DESCRIPTION OF PROJECT Situation: Describe the situation that you were
-          in or the task that you needed to accomplish. You must describe a
-          specific event or situation, not a generalized description of what you
-          have done in the past. Be sure to give enough detail for the
+          <h4> PROJECT DESCRIPTION</h4> The projects contained in this portflio
+          are a compilation of projects from the time I became a professional
+          developer. I've worked with various development environments and
+          frameworks
         </div>
       </div>
       {/* ///////////////////////////////////////////////
@@ -38,14 +38,13 @@ const LandingPage = () => {
 
         <div id="techUsed">TECHNOLOGY USED: </div>
         <div />
-        <div id="techParagraph">
-          Lorem,ipsum dolor sit amet consectetur adipisicing elit Dolor corrupti
-          officia recusandae iure saepe quam sit? Laboriosam in quos maiores,
-          inventore deserunt eum ut recusandae nostrum autem error ratione
-          numquam similique esse beatae consequatur cupiditate delectus sapiente
-          mollitia odit hic dicta a. Veritatis maiores facilis, soluta similique
-          saepe iste impedit!
-        </div>
+        <ul id="techParagraph">
+          <li>- React, JavaScript, CSS, HTML</li>
+          <li>- Gimp, Photoshop, Illistruator, Figma</li>
+          <li>- Node, Express, Mongo, PostgreSql</li>
+          <li>- Visual Studio Code, GitHub, Heroku</li>
+          <li>- Notepad++, PHPRunner, Excel</li>
+        </ul>
       </div>
     </div>
   );

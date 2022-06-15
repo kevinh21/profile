@@ -1,15 +1,15 @@
 import React from "react";
-import "../LandingPage/LandingPage.css";
+import "../../LandingPage/LandingPage.css";
 
-const Project1 = () => {
+const Project2 = () => {
   return (
     <div className="projectLink">
       <div className="leftSidePage">
-        <a href="https://kevinh21.github.io/websitesforbeginners/">
+        <a href="https://kevinh21.github.io/magic8ball/">
           <img
             className="landingPreview"
-            alt="Louvre Interior"
-            src={process.env.PUBLIC_URL + "/images/ws4b.jpg"}
+            alt="Magic8 Ball"
+            src={process.env.PUBLIC_URL + "/images/eightBall.png"}
           ></img>
         </a>
         <div className="description">
@@ -36,14 +36,13 @@ const Project1 = () => {
         <div id="techUsed">TECHNOLOGY USED: </div>
         <div />
         <div id="techParagraph">
-          Lorem,ipsum dolor sit amet consectetur adipisicing elit Dolor corrupti
-          officia recusandae iure saepe quam sit? Laboriosam in quos maiores,
-          inventore deserunt Veritatis maiores facilis, soluta similique saepe
-          iste impedit!
+          JavaScript - HTML - CSS <br />
+          GitHub - Figma - Gimp
+          <br /> Visual Studio Code
         </div>
       </div>
     </div>
   );
 };
 
-export default Project1;
+export default Project2;

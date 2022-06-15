@@ -1,22 +1,21 @@
 import React from "react";
-import "../LandingPage/LandingPage.css";
+import "../../LandingPage/LandingPage.css";
 
-const Project2 = () => {
+const WebSitesForBeginners = () => {
   return (
     <div className="projectLink">
       <div className="leftSidePage">
-        <a href="https://kevinh21.github.io/magic8ball/">
+        <a href="https://kevinh21.github.io/websitesforbeginners/">
           <img
             className="landingPreview"
-            alt="Magic8 Ball"
-            src={process.env.PUBLIC_URL + "/images/eightBall.png"}
+            alt="Louvre Interior"
+            src={process.env.PUBLIC_URL + "/images/ws4b.jpg"}
           ></img>
         </a>
         <div className="description">
-          DESCRIPTION OF PROJECT Situation: Describe the situation that you were
-          in or the task that you needed to accomplish. You must describe a
-          specific event or situation, not a generalized description of what you
-          have done in the past. Be sure to give enough detail for the
+          <h4> PROJECT DESCRIPTION</h4>
+          This was the first project I created from scratch without using any
+          frameworks. It is pure HTML and CSS.
         </div>
       </div>
       <div className="rightSidePage">
@@ -36,14 +35,14 @@ const Project2 = () => {
         <div id="techUsed">TECHNOLOGY USED: </div>
         <div />
         <div id="techParagraph">
-          Lorem,ipsum dolor sit nostrum autem error ratione numquam similique
-          esse beatae consequatur cupiditate delectus sapiente mollitia odit hic
-          dicta a. Veritatis maiores facilis, soluta similique saepe iste
-          impedit!
+          HTML - CSS - GitHub
+          <br />
+          Visual Studion Code
+          <br />
         </div>
       </div>
     </div>
   );
 };
 
-export default Project2;
+export default WebSitesForBeginners;

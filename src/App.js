@@ -11,14 +11,14 @@ const App = () => {
       <Nav />
       <Outlet />
       <ul className="projectList">
-        <li id="project1">
-          <Link to="/project1"> HTML - Security </Link>
+        <li id="webSitesForBeginners">
+          <Link to="/webSitesForBeginners"> HTML - Security </Link>
         </li>
-        <li id="project2">
-          <Link to="/project2"> JS - Magic 8 Ball </Link>
+        <li id="magicEight">
+          <Link to="/magicEight"> JS - Magic 8 Ball </Link>
         </li>
-        <li id="project3">
-          <Link to="/project3"> Collaboration - Watches </Link>
+        <li id="watches">
+          <Link to="/watches"> Collaboration - Watches </Link>
         </li>
       </ul>
     </div>
