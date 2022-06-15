@@ -5,7 +5,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <div className="navWrapper">
-      <h1>KEVIN HARGER - React Developer</h1>
+      <h1>Kevin Harger Profile</h1>
       <nav>
         <ul id="nav1">
           <li>

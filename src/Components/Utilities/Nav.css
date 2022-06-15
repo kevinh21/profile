@@ -21,7 +21,7 @@ nav {
   display: inline-block;
   position: absolute;
   list-style-type: none;
-  background-color: rgb(240, 200, 0);
+  /* background-color: rgb(145, 17, 30); */
 }
 
 #nav1 li {
@@ -49,13 +49,13 @@ nav {
 
 a {
   text-decoration: none;
-  color: rgb(81, 131, 206);
+  color: rgb(49, 23, 105);
   font-size: large;
 }
 
 a:hover {
   color: rgb(10, 37, 158);
-  background-color: beige;
+  /* background-color: beige; */
   font-weight: bold;
 }
 

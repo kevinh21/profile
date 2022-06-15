@@ -11,29 +11,22 @@ import Projects from "./Components/Projects/Projects";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import Information from "./Components/Information/Information";
 import About from "./Components/About/About";
-import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route exact path={"/"} element={<App />}>
-        <Route path="/landingPage/project1" element={<Project1 />} />
-        <Route path="/landingPage/project2" element={<Project2 />} />
-        <Route path="/landingPage/project3" element={<Project3 />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/landingPage" element={<LandingPage />}>
-          {/* <Route index="/landingPage/project1" element={<Project1 />} /> */}
-        </Route>
+        <Route index="/landingPage" element={<LandingPage />}></Route>
+        <Route path="/landingPage" element={<LandingPage />} />
         <Route path="/information" element={<Information />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project1" element={<Project1 />} />
+        <Route path="/project2" element={<Project2 />} />
+        <Route path="/project3" element={<Project3 />} />
       </Route>
     </Routes>
   </Router>,
 
   document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

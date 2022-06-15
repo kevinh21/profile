@@ -6,11 +6,12 @@
 
 body {
   font-family: sans-serif;
+  background-color: rgb(240, 200, 0);
 }
 
 .App {
   padding-top: 80px;
-  background-color: rgb(240, 200, 0);
+  /* background-color: rgb(240, 200, 0); */
 }
 
 .homePic {
@@ -19,4 +20,8 @@ body {
   margin-top: 28px;
   margin-left: 24px;
   height: 100vh;
+}
+
+#project2 {
+  padding: 8px;
 }
