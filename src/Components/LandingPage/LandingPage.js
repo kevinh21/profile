@@ -1,4 +1,5 @@
-import React from "react";
+import { React } from "react";
+import { Link } from "react-router-dom";
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -19,9 +20,6 @@ const LandingPage = () => {
           frameworks
         </div>
       </div>
-      {/* ///////////////////////////////////////////////
-      ///////////////////////////////////////////////
-      /////////////////////////////////////////////// */}
       <div className="rightSidePage">
         <div id="professional">
           <h2 id="pTitle"> Professional </h2>
