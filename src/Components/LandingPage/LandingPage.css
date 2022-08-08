@@ -1,0 +1,71 @@
+.landingPageGrid {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding-bottom: 40px;
+}
+
+.landingPreviewPic {
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 90%;
+}
+
+.description {
+  border-width: 1px;
+  border-color: rebeccapurple;
+  border-style: solid;
+  padding: 1%;
+  margin-top: 8px;
+  margin-left: 2%;
+  width: 90%;
+}
+
+.rightColumn {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#titles {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(38, 38, 71);
+  margin-bottom: 15px;
+}
+#professional {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(55, 55, 85);
+  margin-top: 3vh;
+  margin-bottom: 5px;
+}
+
+#personal {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(55, 55, 85);
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+#techUsed {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(55, 55, 85);
+  margin-top: 18%;
+  margin-bottom: 5px;
+}
+
+#techUsedParagraph {
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  line-height: 22px;
+  color: white;
+  padding: 14px;
+  /* padding-right: 8%; */
+  margin-right: 2px;
+  width: 322px;
+  background-color: rgb(6, 6, 86);
+}
