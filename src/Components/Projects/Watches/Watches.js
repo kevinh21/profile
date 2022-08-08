@@ -44,7 +44,7 @@ const Watches = () => {
                 <br />
                 Visual Studio Code, GitHub, Heroku
                 <br />
-                Gimp, Photoshop, Illistruator, Figma
+                Gimp, Photoshop, Illustrator, Figma
                 <br />
                 Notepad++, PHPRunner, CRM, Excel
                 <br />

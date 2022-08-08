@@ -1,11 +1,11 @@
 import React from "react";
 import Iframe from "react-iframe";
-import "./About.css";
+import "./Resume.css";
 
-const About = () => {
+const Resume = () => {
   return (
     <>
-      <div id="aboutLinks">
+      <div id="resumeLinks">
         <a href="http://linkedin.com/in/kevin-h-b4230611/"> LinkedIn</a>
         <span> - </span>
         <a href="https://github.com/kevinh21/">GitHub</a>
@@ -15,8 +15,8 @@ const About = () => {
         <Iframe
           src={process.env.PUBLIC_URL + "/images/Resume.pdf"}
           id="resumeIframe"
-          className="aboutIframe"
-          width="700px"
+          className="resumeIframe"
+          width="760px"
         />
         <br />
       </div>
@@ -24,4 +24,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Resume;

@@ -10,7 +10,7 @@ import Watches from "./Components/Projects/Watches/Watches";
 import Projects from "./Components/Projects/Projects";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import Information from "./Components/Information/Information";
-import About from "./Components/About/About";
+import Resume from "./Components/Resume/Resume";
 
 ReactDOM.render(
   <Router basename={process.env.PUBLIC_URL}>
@@ -19,7 +19,7 @@ ReactDOM.render(
         <Route index="/landingPage" element={<LandingPage />}></Route>
         <Route path="/landingPage" element={<LandingPage />} />
         <Route path="/information" element={<Information />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
         <Route
           path="/webSitesForBeginners"
