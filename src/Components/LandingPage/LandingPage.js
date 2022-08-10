@@ -32,15 +32,17 @@ const LandingPage = () => {
         <div id="projectsMenu">
           <Projects />
         </div>
-
         <div id="comingSoon">
-          <div /> COMMING SOON
-          <video id="video" autoPlay muted>
-            <source
-              src={process.env.PUBLIC_URL + "/images/raceVideo.mp4"}
-              type="video/mp4"
-            />
-          </video>
+          COMMING SOON
+          <div />
+          <div>
+            <video id="video" autoPlay muted>
+              <source
+                src={process.env.PUBLIC_URL + "/images/raceVideo.mp4"}
+                type="video/mp4"
+              />
+            </video>
+          </div>
         </div>
       </div>
     </div>

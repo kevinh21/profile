@@ -1,6 +1,7 @@
 #wsforbeginPreviewPic {
-  height: 78%;
+  display: inline-block;
   margin-left: 2%;
+  width: 30vw;
 }
 
 #ws4bDescription {
@@ -10,7 +11,7 @@
   padding: 1%;
   margin-top: 8px;
   margin-left: 2%;
-  width: 31.5vw;
+  width: 30vw;
 }
 
 #ws4bTechUsedTitle {
@@ -20,5 +21,5 @@
   padding: 1%;
   margin-top: 8px;
   margin-left: 2%;
-  width: 31.5vw;
+  width: 30vw;
 }
