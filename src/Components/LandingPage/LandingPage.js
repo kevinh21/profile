@@ -33,7 +33,7 @@ const LandingPage = () => {
           <Projects />
         </div>
         <div id="comingSoon">
-          COMMING SOON
+          COMING SOON
           <div />
           <div>
             <video id="video" autoPlay muted>
