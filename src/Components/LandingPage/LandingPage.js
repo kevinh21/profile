@@ -33,8 +33,8 @@ const LandingPage = () => {
           <Projects />
         </div>
 
-        <div id="comingSoonHorse">
-          <p /> COMMING SOON
+        <div id="comingSoon">
+          <div /> COMMING SOON
           <video id="video" autoPlay muted>
             <source
               src={process.env.PUBLIC_URL + "/images/raceVideo.mp4"}
@@ -48,3 +48,5 @@ const LandingPage = () => {
 };
 
 export default LandingPage;
+
+// https://securecannabisalliance.com/

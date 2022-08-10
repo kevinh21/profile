@@ -14,12 +14,12 @@ const WebSitesForBeginners = () => {
             src={process.env.PUBLIC_URL + "/images/ws4b.jpg"}
           ></img>
         </a>
-        <div id="description">
+        <div id="ws4bDescription">
           <h4> PROJECT DESCRIPTION</h4>
           This was the first project I created from scratch without using any
           frameworks. It is pure HTML and CSS.
         </div>
-        <div id="techUsedTitle">
+        <div id="ws4bTechUsedTitle">
           <h4>Technology Used: </h4>
           React, JavaScript, CSS, HTML, Node, Express, Mongo, PostgreSql, Visual
           Studio Code, GitHub, Heroku, Gimp, Photoshop, Illistruator, Figma,
@@ -33,7 +33,7 @@ const WebSitesForBeginners = () => {
           <Projects />
         </div>
 
-        <div id="comingSoonHorse">
+        <div id="comingSoon">
           <p /> COMMING SOON
           <video id="video" autoPlay muted>
             <source

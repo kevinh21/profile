@@ -33,7 +33,7 @@ const Project2 = () => {
           <Projects />
         </div>
 
-        <div id="comingSoonHorse">
+        <div id="comingSoon">
           <p /> COMMING SOON
           <video id="video" autoPlay muted>
             <source
