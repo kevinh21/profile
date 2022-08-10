@@ -5,8 +5,8 @@ import "../../LandingPage/LandingPage.css";
 
 const WebSitesForBeginners = () => {
   return (
-    <div className="landingPageGrid">
-      <div className="topRow">
+    <div className="landingPageFlex">
+      <div>
         <a href="https://kevinh21.github.io/websitesforbeginners/">
           <img
             id="wsforbeginPreviewPic"
@@ -14,42 +14,33 @@ const WebSitesForBeginners = () => {
             src={process.env.PUBLIC_URL + "/images/ws4b.jpg"}
           ></img>
         </a>
-        <div className="description">
+        <div id="description">
           <h4> PROJECT DESCRIPTION</h4>
           This was the first project I created from scratch without using any
           frameworks. It is pure HTML and CSS.
         </div>
-      </div>
-      <div className="rightColumn">
-        <div id="professional">
-          <h2 id="titles"> Professional </h2>
-          Dependable
-          <br /> Team Player <br />
-          Excellent soft skills <br /> Full Stack Developer
-          <div id="personal">
-            <h2 id="titles"> Personal </h2>
-            Father <br /> Charitable <br /> Well traveled
-            <br />
-            Kayak Fishing
-            <div id="techUsed">
-              <h2 id="titles">Technology Used:</h2>
-              <ul id="techUsedParagraph">
-                React, JavaScript, CSS, HTML
-                <br />
-                Node, Express, Mongo, PostgreSql
-                <br />
-                Visual Studio Code, GitHub, Heroku
-                <br />
-                Gimp, Photoshop, Illistruator, Figma
-                <br />
-                Notepad++, PHPRunner, CRM, Excel
-                <br />
-              </ul>
-            </div>
-          </div>
+        <div id="techUsedTitle">
+          <h4>Technology Used: </h4>
+          React, JavaScript, CSS, HTML, Node, Express, Mongo, PostgreSql, Visual
+          Studio Code, GitHub, Heroku, Gimp, Photoshop, Illistruator, Figma,
+          Notepad++, PHPRunner, CRM, Excel
+          <br />
         </div>
+      </div>
+
+      <div className="projectsTechColumn">
         <div id="projectsMenu">
           <Projects />
+        </div>
+
+        <div id="comingSoonHorse">
+          <p /> COMMING SOON
+          <video id="video" autoPlay muted>
+            <source
+              src={process.env.PUBLIC_URL + "/images/raceVideo.mp4"}
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
     </div>

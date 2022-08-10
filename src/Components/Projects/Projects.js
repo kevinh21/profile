@@ -27,6 +27,16 @@ const Projects = () => {
         <li id="sensipass">
           <a href="http://kevinharger.com/sensipass">React - Sensipass</a>
         </li>
+        <li id="SecureCannabisAlliance">
+          <a href="http://SecureCannabisAlliance.com">
+            WordPress - Secure Cannabis Alliance
+          </a>
+        </li>
+        <li id="securityrfps">
+          <a href="http://securityrfps.com">
+            In Developement WordPress- Security RFPs
+          </a>
+        </li>
       </ul>
     </div>
   );

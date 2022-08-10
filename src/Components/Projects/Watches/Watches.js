@@ -1,11 +1,11 @@
 import React from "react";
-import "../../LandingPage/LandingPage";
 import "./Watches.css";
 import Projects from "../Projects";
+import "../../LandingPage/LandingPage";
 
 const Watches = () => {
   return (
-    <div className="landingPageGrid">
+    <div className="landingPageFlex">
       <div>
         <a href="http://kevinharger.com/watches">
           <img
@@ -15,7 +15,7 @@ const Watches = () => {
           ></img>
         </a>
 
-        <div className="description">
+        <div id="description">
           <h4> PROJECT DESCRIPTION</h4>
           This project was created from a design by a UX/UI designer. He was a
           member of a team that desired experience working with actual
@@ -23,37 +23,27 @@ const Watches = () => {
           with other professionals. We were paired to create a basic static
           site. Visual appeal was the emphasis of the design.
         </div>
-      </div>
-      <div className="rightColumn">
-        <div id="professional">
-          <h2 id="titles"> Professional </h2>
-          Dependable
-          <br /> Team Player <br />
-          Excellent soft skills <br /> Full Stack Developer
-          <div id="personal">
-            <h2 id="titles"> Personal </h2>
-            Father <br /> Charitable <br /> Well traveled
-            <br />
-            Kayak Fishing
-            <div id="techUsed">
-              <h2 id="titles">Technology Used:</h2>
-              <ul id="techUsedParagraph">
-                React, JavaScript, CSS, HTML
-                <br />
-                Node, Express, Mongo, PostgreSql
-                <br />
-                Visual Studio Code, GitHub, Heroku
-                <br />
-                Gimp, Photoshop, Illustrator, Figma
-                <br />
-                Notepad++, PHPRunner, CRM, Excel
-                <br />
-              </ul>
-            </div>
-          </div>
+        <div id="techUsedTitle">
+          <h4>Technology Used: </h4>
+          React, JavaScript, CSS, HTML, Node, Express, Mongo, PostgreSql, Visual
+          Studio Code, GitHub, Heroku, Gimp, Photoshop, Illistruator, Figma,
+          Notepad++, PHPRunner, CRM, Excel
+          <br />
         </div>
+      </div>
+      <div className="projectsTechColumn">
         <div id="projectsMenu">
           <Projects />
+        </div>
+
+        <div id="comingSoonHorse">
+          <p /> COMMING SOON
+          <video id="video" autoPlay muted>
+            <source
+              src={process.env.PUBLIC_URL + "/images/raceVideo.mp4"}
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
     </div>

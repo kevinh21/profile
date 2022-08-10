@@ -3,10 +3,10 @@
 }
 
 .projectList {
-  position: fixed;
-  margin-top: 23%;
-  margin-right: 4%;
-  margin-left: 3%;
+  /* position: fixed; */
+  margin-top: 8%;
+  margin-right: 6%;
+  /* margin-left: 1%; */
   text-align: right;
   list-style: none;
   line-height: 14px;

@@ -11,7 +11,7 @@ nav {
   align-items: right;
   margin-left: auto;
   height: 16px;
-  width: 140px;
+  width: 17%;
   background-color: rgb(240, 200, 0);
 }
 
@@ -24,11 +24,11 @@ nav {
 
 #nav1 li {
   display: none;
-  padding: 6px;
+  padding: 1%;
   width: 160px;
-  margin-left: 20px;
+  margin-left: 1%;
   background-color: transparent;
-  /* background-color: rgb(240, 200, 0); */
+  background-color: rgb(240, 200, 0);
 }
 
 #nav1::before {
